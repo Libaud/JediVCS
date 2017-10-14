@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Debug Windows 32"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="jvcs.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="400"/>
+        <CursorPos X="2" Y="136"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="TZHandling.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="52"/>
+        <CursorPos Y="68"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="COMPOPT.INC"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="4" Y="17"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="/usr/local/codetyphon/typhon/components/BaseUtils/lazutf8.pas"/>
+        <UnitName Value="LazUTF8"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="21"/>
+        <CursorPos X="3" Y="34"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="jvcs.dpr"/>
+      </Position1>
+      <Position2>
+        <Filename Value="jvcs.dpr"/>
+        <Caret Line="136" Column="2" TopLine="120"/>
+      </Position2>
+      <Position3>
+        <Filename Value="jvcs.dpr"/>
+        <Caret Line="136" Column="2" TopLine="120"/>
+      </Position3>
+      <Position4>
+        <Filename Value="/usr/local/codetyphon/typhon/components/BaseUtils/lazutf8.pas"/>
+        <Caret Line="34" Column="3"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

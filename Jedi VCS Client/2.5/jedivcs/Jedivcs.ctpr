@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <MainUnitHasScaledStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="Jedivcs"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <MacroValues Count="1">
+      <Macro1 Name="LCLWidgetType" Value="Win32"/>
+    </MacroValues>
+    <BuildModes Count="4">
+      <Item1 Name="Debug Windows 32" Default="True"/>
+      <Item2 Name="Release Windows 32">
+        <MacroValues Count="1">
+          <Macro1 Name="LCLWidgetType" Value="Win32"/>
+        </MacroValues>
+        <CompilerOptions>
+          <Version Value="11"/>
+          <SearchPaths>
+            <IncludeFiles Value="../../../../../Bibliotheques Externes/jedi;../../../../../Bibliotheques Externes/jcl/source/windows;../../../../../Bibliotheques Externes/jcl/source/common;../../../../../Bibliotheques Externes/jcl/source/include;$(ProjOutDir)"/>
+            <OtherUnitFiles Value="../../../../../Bibliotheques Externes/other pascal components;../../../../../Bibliotheques Externes/jcl/source/windows;../../../../../Bibliotheques Externes/jcl/source/common"/>
+            <UnitOutputDirectory Value="../../bin/$(TargetCPU)-$(TargetOS)-Release"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <SyntaxMode Value="Delphi"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <TargetOS Value="win32"/>
+            <Optimizations>
+              <OptimizationLevel Value="2"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL"/>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+      <Item3 Name="Debug Windows 64">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <SearchPaths>
+            <IncludeFiles Value="/usr/local/codetyphon/typhon/components/;../../../../../Bibliotheques Interne;../../../../../Bibliotheques Externes/jedi/source/include;../../../../../Bibliotheques Externes/jedi/source/include/jedi;../../../../../Bibliotheques Externes/jedi/source/windows;../../../../../Bibliotheques Externes/jedi/source/common;../../../../../Bibliotheques Externes/jedi/archive;../../../../../Bibliotheques Externes/jedi/run;$(ProjOutDir);../../../common;../../../Components"/>
+            <Libraries Value="../../../common;../../../Components;../../../../../Bibliotheques Externes/jedi/run"/>
+            <OtherUnitFiles Value="/usr/local/codetyphon/typhon/components/;/usr/local/codetyphon/typhon/components/BaseIdeintf/;../../../../../Bibliotheques Interne;../../../../../Bibliotheques Externes/other pascal components;../../../../../Bibliotheques Externes/jedi/source/include;../../../../../Bibliotheques Externes/jedi/source/include/jedi;../../../../../Bibliotheques Externes/jedi/source/common;../../../../../Bibliotheques Externes/jedi/source/windows;../../../../../Bibliotheques Externes/jedi/source/prototypes;../../../../../Bibliotheques Externes/jedi/source/vcl;../../../../../Bibliotheques Externes/jedi/run;../../../../../Bibliotheques Externes/jedi/archive;../../../common;../../../Components"/>
+            <UnitOutputDirectory Value="../../bin/$(TargetCPU)-$(TargetOS)-Debug"/>
+          </SearchPaths>
+          <Parsing>
+            <Style Value="1"/>
+            <SyntaxOptions>
+              <SyntaxMode Value="Delphi"/>
+              <IncludeAssertionCode Value="True"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+            <VerifyObjMethodCallValidity Value="True"/>
+            <TargetCPU Value="x86_64"/>
+            <TargetOS Value="win64"/>
+          </CodeGeneration>
+          <Linking>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-dTYPHON -dUseOINormalCheckBox"/>
+          </Other>
+        </CompilerOptions>
+      </Item3>
+      <Item4 Name="Release Windows 64">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <SearchPaths>
+            <IncludeFiles Value="../../../../../Bibliotheques Externes/jedi;../../../../../Bibliotheques Externes/jcl/source/windows;../../../../../Bibliotheques Externes/jcl/source/common;../../../../../Bibliotheques Externes/jcl/source/include;$(ProjOutDir)"/>
+            <OtherUnitFiles Value="../../../../../Bibliotheques Externes/other pascal components;../../../../../Bibliotheques Externes/jcl/source/windows;../../../../../Bibliotheques Externes/jcl/source/common"/>
+            <UnitOutputDirectory Value="../../bin/$(TargetCPU)-$(TargetOS)-Release"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <SyntaxMode Value="Delphi"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <TargetOS Value="win64"/>
+          </CodeGeneration>
+          <Linking>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL"/>
+          </Other>
+        </CompilerOptions>
+      </Item4>
+      <SharedMatrixOptions Count="4">
+        <Item1 ID="263162491590" Modes="Debug Windows 32,Release Windows 32" Type="IDEMacro" MacroName="LCLWidgetType" Value="Win32"/>
+        <Item2 ID="317776204350" Modes="Debug Windows 32,Release Windows 32,Debug Windows 64,Release Windows 64" Value="-dWINDOWS"/>
+        <Item3 ID="701946599117" Modes="Release Windows 32,Release Windows 64" Value="-dRELEASE"/>
+        <Item4 ID="017694593072" Modes="Debug Windows 32,Debug Windows 64" Value="-dDEBUG"/>
+      </SharedMatrixOptions>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="adLCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="82">
+      <Unit0>
+        <Filename Value="Jedivcs.dpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ProjAdmin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="Progress.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="AddNewFamily.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="AddNewLabel.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="AddNewMilestone.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="AddNewUser.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="AddShareModule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="AssignLabels.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="AssignMilestones.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="Backup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="Branch.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="ChangeUserPW.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="CheckfBuild.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="ChkInSingle.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="ChkOutSingle.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="Create.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="CrossRefList.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="CustViewFilter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="DBModule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="DeletePH.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="Description.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="FileFamilies.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="HandleBlob.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="ListView.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="MaintainFFamilies.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="MaintainLabels.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="MaintainMilestones.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="MaintainUsers.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="MoveModules.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="NtfySend.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="Options.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="Password.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="PHFilter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="About.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="Yes2allDlg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="ProjectHist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="ProjectRights.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="ProjectTree.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="Purge.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="RemoveProj.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="RenameProj.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="SearchModules.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="SelectFolder.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="SelectList.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="SelectProjectID.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="ServerOptions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="Std_ListView.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="Syncronice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="ToDoFilter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="Touch.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="VCSBase.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="VCSProcBase.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="WaitforServer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="WCViewFilter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="Whoami.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="OpenProject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="EditIP.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="SelectDrive.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="SimpleReport.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="KWExpansion.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="MaintainBugs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="AddNewBug.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="AssignBugs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="ListEdit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="CompareFolders.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="AddNewGroup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="TimeLogFilter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="AddNewCompareTool.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="DirectSQL.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="Distribution.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="SMTPSend.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="Plugins.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="DirWatch.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="BugWindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="JVCSDockForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="ModuleHistoryWindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="ConfigStorage.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="JVCSGUIClientResources.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="JVCSBrowserFrame.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit79>
+      <Unit80>
+        <Filename Value="JVCSLabelHistory.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit80>
+      <Unit81>
+        <Filename Value="JVCSDialogs.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit81>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <SearchPaths>
+      <IncludeFiles Value="../../../../../Bibliotheques Externes/jedi;../../../../../Bibliotheques Externes/jcl/source/windows;../../../../../Bibliotheques Externes/jcl/source/common;../../../../../Bibliotheques Externes/jcl/source/include;$(ProjOutDir)"/>
+      <OtherUnitFiles Value="../../../../../Bibliotheques Externes/other pascal components;../../../../../Bibliotheques Externes/jcl/source/windows;../../../../../Bibliotheques Externes/jcl/source/common"/>
+      <UnitOutputDirectory Value="../../bin/$(TargetCPU)-$(TargetOS)-Debug"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="Delphi"/>
+        <IncludeAssertionCode Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <VerifyObjMethodCallValidity Value="True"/>
+      <TargetOS Value="win32"/>
+      <Optimizations>
+        <OptimizationLevel Value="0"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CustomOptions Value="-dTYPHON"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,105 @@
+********************************************************************************
+JEDI VCS V2.40 - Source Credits file
+********************************************************************************
+This file should be kept in sync. with the credits tab of the JVCS About Dialog
+(JVCSBaseAboutDialog)
+********************************************************************************
+JVCS team gives credit for:
+
+Portions of this code are based on/derived from:
+
+Jedi JCL Code Library
+ (http://sourceforge.net/projects/jcl/)
+Jedi VCL Visual Component Library
+ (http://sourceforge.net/projects/jvcl/)
+SynEdit Components
+ (http://synedit.sourceforge.net/)
+GExperts Source distribution
+ (http://www.gexperts.org)
+Borland ToolsAPI/ VCSIntfAPI sample code
+ (http://www.borland.com)
+
+Setup program:
+ Inno Setup, InnoSetup Extensions (5.0.7)
+ (http://www.jrsoftware.org)
+ Copyright © 1997-2005 Jordan Russell.
+ Portions Copyright © 2000-2005 Martijn Laan.
+
+Middleware application framework:
+ ICS/Midware
+ (http://www.overbyte.be)
+ Copyright © 1997 - 2005 by François PIETTE.
+
+Database engines/components:
+ DBISAM (3.3x) © 2004 by Elevate Software.
+ (http://www.elevatesoft.com)
+ FlashFiler (2.13 Opensource)
+ Copyright © 1996-2002, TurboPower Software Company.
+ (http://sourceforge.net/projects/tpflashfiler)
+ Delphi to Oracle direct access library - NCOCI
+ Copyright © 2000-2004, Dmitry Arefiev
+ (http://www.da-soft.com)
+
+Text compare engine (JediVCSDiff):
+ Based on code by Armin L. Biernaczyk.
+ (Derived from the program FC_Win)
+
+Zip engines:
+ TZipmaster, Zipdll.dll & Unzdll.dll (1.4)
+ Copyright © 1998, by Eric W. Engler & Chris Vleghert.
+ DLLs are based on the InfoZip Official Freeware
+ Zip/Unzip source code on:
+ (http://www.delphizip.net)
+ Abbrevia (3.05 Opensource)
+ Copyright © 1996-2002, TurboPower Software Company.
+ (http://sourceforge.net/projects/tpabbrevia)
+
+Browse for folders component:
+ TdfsSystemTreeView (0.98.5)
+  Copyright © 2000-2001, Brad Stowers.
+
+Enhanced ListView component:
+ TdfsEnhListView (3.72)
+  Copyright © 1998-2001, Brad Stowers.
+
+Gauge Statusbar component:
+ TdfsStatusBar (1.24)
+  Copyright © 2000 by Brad Stowers.
+
+Mailslot in Clients/ FVCSNotify:
+ TmdMailSlot (1.17)
+  Copyright © 1997-'99 by Martin Djernæs.
+
+Basics of password encryption
+ (FVCSCrypt.dll/ServerCrypt.dll):
+ TEncrypt -
+  Copyright © 1996 by F. Millenaar.
+
+Pascal Parser/ Tokenizer:
+ TmwPasLex (2.2)
+  Copyright © 1998-'99 by Martin Waldenburg.
+
+MRU file dialogs:
+ TFAVOpenDialog (0.2)
+ Copyright © 1997, by Marcus Stephany.
+
+RTF file syntax:
+ Based on the component "CtrlToRTF" (1.0)
+ Copyright © 2000 by K. Nishita.
+
+Thanks for contributing a free copy:
+ Elevate Software & Tim Young for donating a free copy
+ of their great database engine DBISAM.
+ (http://www.elevatesoftware.com)
+
+ Devrace & Serg Vostrikov for donating a free copy of
+ their great Interbase/Firebird component package.
+ (http://www.devrace.com)
+
+ toolsfactory software for donating a free copy of
+ their great doc-o-matic documentation tool.
+ (http://www.toolsfactory.com)
+
+...and all we have forgotten for hints, code snippets,
+beta testing or other usefull things.
+

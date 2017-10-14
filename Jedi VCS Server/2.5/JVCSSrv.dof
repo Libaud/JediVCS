@@ -1,0 +1,5 @@
+[Directories]
+OutputDir=..\..\bin\debug
+UnitOutputDir=..\..\dcu
+SearchPath=..\comp\fastmm;..\jcl\source;..\jcl\source\common;..\jcl\source\windows;..\jvcl\common;..\jvcl\resources;..\jvcl\run;..\comp\overbyte;..\comp\zeos\src\component;..\comp\zeos\src\dbc;..\comp\zeos\src\core;..\comp\zeos\src\parsesql;..\comp\zeos\src\plain;..\comp\tpff\source;..\comp\ncoci\source;..\comp\uib
+
